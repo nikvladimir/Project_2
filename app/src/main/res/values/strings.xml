@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Project_2</string>
+    <string name="greating_vova_view">Greeting Vova 2!!!</string>
+    <string name="greating_kate_view">Greeting Kate!</string>
+    <string name="greating_myself_view">Greeting myself!</string>
+    <string name="greeting_vova_text">Hello Vova!\nMy dear creator</string>
 </resources>
