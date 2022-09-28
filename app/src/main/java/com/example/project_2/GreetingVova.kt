@@ -10,7 +10,7 @@ class GreetingVova : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_greeting_vova)
 
-        val backButton: TextView = findViewById(R.id.greetingTextView)
+        val backButton: TextView = findViewById(R.id.backButton)
         backButton.setOnClickListener() { backToMainActivity() }
     }
 

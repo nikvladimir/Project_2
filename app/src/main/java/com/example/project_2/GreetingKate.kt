@@ -10,7 +10,7 @@ class GreetingKate : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_greeting_kate)
 
-        val backButton: TextView = findViewById(R.id.greetingTextView)
+        val backButton: TextView = findViewById(R.id.backButton)
         backButton.setOnClickListener() { backToMainActivity() }
     }
 
