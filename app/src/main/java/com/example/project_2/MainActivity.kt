@@ -14,23 +14,13 @@ class MainActivity : AppCompatActivity() {
         val textKate: TextView = findViewById(R.id.greeting_kate)
         val textMyself: TextView = findViewById(R.id.greeting_myself)
 
-        textVova.setOnClickListener() { openGreetingVovaActivity() }
-        textKate.setOnClickListener() { openGreetingKateActivity(GreetingKate::class.java) }
-        textMyself.setOnClickListener() { openGreetingMyselfActivity(GreetingMyself::class.java) }
+        textVova.setOnClickListener() { openGreetingActivity(GreetingVova::class.java) }
+        textKate.setOnClickListener() { openGreetingActivity(GreetingKate::class.java) }
+        textMyself.setOnClickListener() { openGreetingActivity(GreetingMyself::class.java) }
     }
 
-    private fun openGreetingVovaActivity() {
-        val intent = Intent(this, GreetingVova::class.java)
-        startActivity(intent)
-    }
-
-    private fun openGreetingKateActivity(className:  Class<*>) {
+    private fun openGreetingActivity(className:  Class<*>) {
         val intent = Intent(this, className)
-        startActivity(intent)
-    }
-
-    private fun openGreetingMyselfActivity(className:  Class<*>) {
-        val intent = Intent(this, className::class.java)
         startActivity(intent)
     }
 }
