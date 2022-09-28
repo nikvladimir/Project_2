@@ -3,10 +3,14 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/android/Project_2/app/src/main/res/layout/activity_greeting_kate.xml" value="0.18177083333333333" />
-        <entry key="..\:/android/Project_2/app/src/main/res/layout/activity_greeting_myself.xml" value="0.18177083333333333" />
-        <entry key="..\:/android/Project_2/app/src/main/res/layout/activity_greeting_vova.xml" value="0.17028985507246377" />
+        <entry key="..\:/android/Project_2/app/src/main/res/layout/activity_greating_kate.xml" value="0.18177083333333333" />
+        <entry key="..\:/android/Project_2/app/src/main/res/layout/activity_greating_myself.xml" value="0.18177083333333333" />
+        <entry key="..\:/android/Project_2/app/src/main/res/layout/activity_greating_vova.xml" value="0.17028985507246377" />
+        <entry key="..\:/android/Project_2/app/src/main/res/layout/activity_greeting_kate.xml" value="0.2" />
+        <entry key="..\:/android/Project_2/app/src/main/res/layout/activity_greeting_myself.xml" value="0.19202898550724637" />
+        <entry key="..\:/android/Project_2/app/src/main/res/layout/activity_greeting_vova.xml" value="0.264" />
         <entry key="..\:/android/Project_2/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/android/Project_2/app/src/main/res/layout/activity_test.xml" value="0.17844202898550723" />
       </map>
     </option>
   </component>
