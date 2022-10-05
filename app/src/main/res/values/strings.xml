@@ -6,5 +6,7 @@
     <string name="greeting_vova_text">Hello Vova!\nMy dear creator</string>
     <string name="greeting_kate_text">Hello Kate!\nMy dear wife :)</string>
     <string name="greeting_myself_text">Hello!\nThis is I am, is your program</string>
+    <string name="greeting_input_name_text">Who do you want to greet?</string>
     <string name="back">Back</string>
+    <string name="greet">Greet</string>
 </resources>
