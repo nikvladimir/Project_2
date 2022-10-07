@@ -8,7 +8,11 @@ import android.widget.TextView
 class GreetingEnteredName : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_greeting_input_name)
+        setContentView(R.layout.activity_greeting_entered_name)
+
+        val message = intent.getStringExtra("key")
+        val textMyself: TextView = findViewById(R.id.greetingTextView)
+        textMyself.text = message
 
         val backButton: TextView = findViewById(R.id.backButton)
         backButton.setOnClickListener() { backToMainActivity() }

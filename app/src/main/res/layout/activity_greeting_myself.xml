@@ -12,6 +12,7 @@
         android:layout_height="wrap_content"
         android:text="@string/greeting_myself_text"
         android:textSize="34sp"
+        android:textAlignment="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

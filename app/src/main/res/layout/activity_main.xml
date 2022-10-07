@@ -11,7 +11,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/greating_vova_view"
-        android:textSize="34dp"
+        android:textSize="34sp"
 
         app:layout_constraintBottom_toTopOf="@+id/greeting_kate"
         app:layout_constraintEnd_toEndOf="parent"
@@ -24,7 +24,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/greating_kate_view"
-        android:textSize="34dp"
+        android:textSize="34sp"
 
         app:layout_constraintBottom_toTopOf="@+id/greeting_myself"
         app:layout_constraintEnd_toEndOf="parent"
@@ -36,7 +36,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/greating_myself_view"
-        android:textSize="34dp"
+        android:textSize="34sp"
 
         app:layout_constraintBottom_toTopOf="@+id/greeting_some_one"
         app:layout_constraintEnd_toEndOf="parent"
@@ -62,14 +62,14 @@
         android:layout_width="290dp"
         android:layout_height="wrap_content"
 
-        app:layout_constraintBottom_toTopOf="@+id/btn_entered_name"
+        app:layout_constraintBottom_toTopOf="@+id/entered_name_button"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/greeting_some_one" />
 
     <Button
-        android:id="@+id/btn_entered_name"
+        android:id="@+id/entered_name_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/greet"

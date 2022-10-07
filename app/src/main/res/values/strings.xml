@@ -9,4 +9,5 @@
     <string name="greeting_input_name_text">Who do you want to greet?</string>
     <string name="back">Back</string>
     <string name="greet">Greet</string>
+    <string name="default_text">default text</string>
 </resources>
